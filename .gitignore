@@ -1,0 +1,19 @@
+# Entornos virtuales (Evita subir la carpeta pesada con librerías)
+.venv/
+venv/
+env/
+ENV/
+
+# Caché de Python (Archivos temporales que genera Python al ejecutar código)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración del editor de código
+.vscode/
+.idea/
+
+# Archivos ocultos del sistema operativo
+.DS_Store
+Thumbs.db
